@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do App</title>
+        <!-- google font: Gowun Dodum -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+            rel="stylesheet"
+        />
+        <!-- favicon icon -->
+        <link
+            rel="shortcut icon"
+            href="./img/favicon.ico"
+            type="image/x-icon"
+        />
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- javascript -->
+        <script src="./js/app.js" type="module" defer></script>
+    </head>
+    <body>
+        <!-- to-do section start -->
+        <section class="to-do-section">
+            <div class="row">
+                <div class="to-do-image">
+                    <img src="./img/favicon.ico" alt="Logo" />
+                </div>
+                <div class="to-do-heading">
+                    <h1>to-do app</h1>
+                </div>
+                <div class="to-do-form">
+                    <form id="form-container">
+                        <div class="form-group">
+                            <label for="new-task">add to-do</label>
+                            <input
+                                type="text"
+                                id="new-task"
+                                autocomplete="off"
+                                autofocus
+                            />
+                            <input type="submit" value="add task" />
+                        </div>
+                        <div class="form-group">
+                            <p id="error-container"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="to-do-list">
+                    <div class="to-do-incomplete-list">
+                        <h2>incomplete task</h2>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="null" />
+                                <label for="null"></label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="to-do-author">
+                    <p>
+                        build with 💜 by
+                        <a
+                            target="_blank"
+                            href="https://saminyasar.netlify.app/"
+                            >samin yasar</a
+                        >
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- to-do section end -->
+    </body>
+</html>
