@@ -34,7 +34,8 @@ body {
 }
 
 .row {
-    width: calc(100% - 2rem);
+    /* width: calc(100% - 2rem); */
+    width: 100rem;
     margin: 0 auto;
 }
 

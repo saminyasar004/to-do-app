@@ -1,0 +1,59 @@
+/*
+ * 320px — 480px: Mobile devices.
+ * 481px — 768px: iPads, Tablets.
+ * 769px — 1024px: Small screens, laptops.
+ * 1025px — 1200px: Desktops, large screens.
+ * 1201px and more — Extra large screens, TV.
+*/
+
+/* 320 to 480 */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .row {
+        width: 30rem;
+    }
+
+    .to-do-form,
+    .to-do-incomplete-list {
+        width: 90%;
+    }
+
+    .form-group input[type="text"] {
+        width: 70%;
+    }
+
+    #form-container .form-group:nth-child(1) {
+        flex-direction: column;
+    }
+}
+
+/* 481 to 768 */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .row {
+        width: 48rem;
+    }
+
+    .to-do-form,
+    .to-do-incomplete-list {
+        width: 90%;
+    }
+
+    .form-group input[type="text"] {
+        width: 70%;
+    }
+
+    #form-container .form-group:nth-child(1) {
+        flex-direction: column;
+    }
+}
+
+/* 769 to 1024 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .row {
+        width: 80rem;
+    }
+
+    .to-do-form,
+    .to-do-incomplete-list {
+        width: 80%;
+    }
+}
