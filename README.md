@@ -14,6 +14,6 @@ Hey what's up Developers? Here I created a simple To-Do App using vanilla JavaSc
 
 ## **Live Site Link**
 
-[To-Do App]( "To-Do App Live Site")
+[To-Do App](https://todoojs.netlify.app/ "To-Do App Live Site")
 
 ### Happy Coding 🚀
